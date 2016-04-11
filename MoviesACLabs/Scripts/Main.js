@@ -36,4 +36,5 @@ prevBut.addEventListener('click', function () {
 
 }, false);
 
+$("#PrevB").css("color", "blue");
 
