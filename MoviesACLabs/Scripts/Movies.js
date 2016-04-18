@@ -16,7 +16,7 @@ $("#but").click(function () {
 
 $("butx").click(function () {
     var fill = $("#nume").val();
-    $("li[" + fill + "]").remove();
+    $("#list").remove();
 });
 
 
