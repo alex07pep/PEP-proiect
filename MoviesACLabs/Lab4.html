@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html ng-app="Lab4">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js" ></script>
+    <script src="Scripts/Lab4.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+   
+    
+    
+
+
+    <input ng-model="addEl"/>
+    <button ng-click="addElement()">Add</button>
+    <ul>
+        <li ng-repeat="element in elements"><input type="checkbox" ng-model=""></input> {{element.name}} <button ng-click="removeElement($index)">x</button></li>
+    </ul>
+    <button >All</button><button>Active</button><button>Completed</button>
+    <br />
+    <label>
+        Value1:
+        <input type="checkbox" ng-model="checkboxModel.value1">
+    </label><br />
+    <tt>value1 = {{checkboxModel.value1}}</tt><br />
+   
+
+
+
+</body>
+</html>
