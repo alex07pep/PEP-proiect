@@ -106,8 +106,10 @@
     <Content Include="Index.html" />
     <Content Include="Lab3.html" />
     <Content Include="Lab4.html" />
+    <Content Include="Lab5.html" />
     <Content Include="Scripts\jquery-1.12.3.js" />
     <Content Include="Scripts\Lab4.js" />
+    <Content Include="Scripts\Lab5.js" />
     <Content Include="Scripts\Main.js" />
     <Content Include="Scripts\Movies.js" />
     <Content Include="Styles\Screen.css" />

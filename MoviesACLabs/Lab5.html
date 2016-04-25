@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS</title>   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="Scripts/Lab5.js"></script>
+</head>
+<body ng-app="Lab5" ng-controller="ActorsCtrl">
+
+
+
+
+
+
+    <table style="width:50%">
+        <tr>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Revenue</th>
+        </tr>
+        <tr ng-repeat="actor in actorsList">
+            <td>{{actor.Name}}</td>
+            <td>{{actor.DateOfBirth}}</td>
+            <td>{{actor.Revenue}}</td>
+        </tr>
+  
+    </table>
+
+    <ul >
+        <li ng-repeat="actor in actorsList"> Name: {{actor.Name}}  date of birth:   {{actor.DateOfBirth}} </li>
+
+    </ul>
+ 
+  <form >
+      Formular
+      <input type="text" id="id" name="id"  ng-model="id" placeholder="id" />
+      <input type="text" id="nume"  ng-model="Name" placeholder="nume"/>
+      <input type="text" id="zi"  ng-model="DateofBirth" placeholder="date of birth"/>
+      <input type="submit" id="don" value="Submit" ng-click="UpdateData()" />
+  </form >
+    
+   
+
+
+
+ 
+
+
+</body>
+</html>
