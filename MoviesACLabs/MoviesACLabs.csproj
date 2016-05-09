@@ -107,9 +107,11 @@
     <Content Include="Lab3.html" />
     <Content Include="Lab4.html" />
     <Content Include="Lab5.html" />
+    <Content Include="lab6.html" />
     <Content Include="Scripts\jquery-1.12.3.js" />
     <Content Include="Scripts\Lab4.js" />
     <Content Include="Scripts\Lab5.js" />
+    <Content Include="Scripts\lab6.js" />
     <Content Include="Scripts\Main.js" />
     <Content Include="Scripts\Movies.js" />
     <Content Include="Styles\Screen.css" />
@@ -120,6 +122,7 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ActorsController.cs" />
+    <Compile Include="Controllers\AwardsController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Controllers\ReviewsController.cs" />
     <Compile Include="Data\MoviesContext.cs" />
@@ -135,6 +138,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ActorModel.cs" />
+    <Compile Include="Models\AwardModel.cs" />
     <Compile Include="Models\MovieModel.cs" />
     <Compile Include="Models\ReviewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
