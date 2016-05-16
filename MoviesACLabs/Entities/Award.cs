@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Web;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
 
-namespace MoviesACLabs.Models
+namespace MoviesACLabs.Entities
 {
-    public class AwardModel
+    public class Award
     {
 
 
@@ -18,7 +19,9 @@ namespace MoviesACLabs.Models
 
         public string ActorName { get; set; }
 
+        public virtual IList<Actor> Actors { get; set; }
+
+        // public ActorModel ActorId { get; set; }
+
     }
-  
- 
 }
