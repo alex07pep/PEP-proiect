@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html ng-app="Lab4">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="Scripts/Airline.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+
+
+
+
+    <label>Nume Airline:</label>
+    <input ng-model="addEl" />
+   
+    <label>Country:</label>
+    <input ng-model="addE2" />
+    <button ng-click="addElement()">Add</button>
+    <ul>
+        <li ng-repeat="element in elements"><input type="checkbox" ng-model=""></input> {{element.name}}  {{element.dest}} <button ng-click="removeElement($index)">x</button></li>
+    </ul>
+    
+    <br />
+    <label>
+        Value1:
+        <input type="checkbox" ng-model="checkboxModel.value1">
+    </label><br />
+    <tt>value1 = {{checkboxModel.value1}}</tt><br />
+
+    <label>Avion locuri:</label>
+    <input ng-model="addE3" />
+
+    <label>Model:</label>
+    <input ng-model="addE4" />
+    <button ng-click="addElement2()">Add</button>
+    <ul>
+        <li ng-repeat="el in elements2"><input type="checkbox" ng-model=""></input> {{el.locuri}}  {{el.model}} <button ng-click="removeElement($index)">x</button></li>
+    </ul>
+
+
+</body>
+</html>

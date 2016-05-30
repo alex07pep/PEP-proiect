@@ -1,0 +1,23 @@
+﻿adaugam 
+
+	plane1 loc : 100  model Boeing 889
+	plane2 loc: 3 model f12
+
+
+	airline 1
+	Blue air    dest -> Londra 
+		plane1,plane2
+
+	airline 2
+	Wizzard  dest -> France
+			no plane 
+
+	airline 3
+	BNMM   dest -> Rome
+			plane1
+
+ incercam sa ne incadram in toate cazurile
+ si incewrcam sa vedem ce se intampla cand nu introducem date corect
+ sau incercam mai pe scurt sa crashuim aplicatia
+
+

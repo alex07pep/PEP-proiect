@@ -21,6 +21,8 @@ namespace MoviesACLabs.Data
         public DbSet<Actor> Actors { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Award> Awards { get; set; }
+        public DbSet<Plane> Planes { get; set; }
+        public DbSet<Airline> Airlines { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
